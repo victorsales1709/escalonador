@@ -1,0 +1,135 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+select {
+    font-size: 16px;
+}
+
+button {
+    margin: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+input {
+    padding: 2px;
+    font-size: 14px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.scheduler-config {
+    margin-bottom: 20px;
+}
+
+.process-list {
+    margin-bottom: 20px;
+}
+
+.schedule-matrix {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow-x: auto;
+}
+
+.matrix-container{
+    margin: 20px
+}
+
+.time-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.time-cell {
+    width: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.process-row {
+    margin-bottom: 10px;
+}
+
+.process-label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.state-cell {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+    margin-right: 2px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.state-cell.green {
+    background-color: #7eff8c;
+    color: #006400;
+}
+
+.state-cell.red {
+    background-color: #ff7e7e;
+    color: #8b0000;
+}
+
+.state-cell.yellow {
+    background-color: #ffe87e;
+    color: #8b6508;
+}
+
+.state-cell.gray {
+    background-color: #d3d3d3;
+    color: #696969;
+}
+
+.state-cell.black {
+    background-color: #000;
+    color: #fff;
+}
+
+.state-cell.white {
+    background-color: #fff;
+    color: #000;
+}
+

@@ -1,0 +1,50 @@
+.matrix-container {
+    margin: 20px;
+}
+
+.schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.schedule-table th,
+.schedule-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.schedule-table th {
+    background-color: #f4f4f4;
+}
+
+.matrix-cell {
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    background-color: #ffffff; /* Default background color */
+}
+
+.matrix-cell.green {
+    background-color: #00ff00;
+}
+
+.matrix-cell.red {
+    background-color: #ff0000;
+}
+
+.matrix-cell.yellow {
+    background-color: #ffff00;
+}
+
+.matrix-cell.gray {
+    background-color: #d3d3d3;
+}
+
+.matrix-cell.white {
+    background-color: #ffffff;
+}
+
+.matrix-cell.black {
+    background-color: #000000;
+}

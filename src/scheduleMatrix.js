@@ -6,6 +6,11 @@ function ScheduleMatrix({ scheduleMatrix, processes }) {
     const [columnIndex, setColumnIndex] = useState(0);
 
     useEffect(() => {
+        setDisplayedMatrix([]);
+        setColumnIndex(0);
+    }, [scheduleMatrix, processes]);
+
+    useEffect(() => {
         const updateMatrix = () => {
             if (columnIndex < Math.max(...processes.map(p => scheduleMatrix[p.id]?.length || 0))) {
                 setDisplayedMatrix(prev => {

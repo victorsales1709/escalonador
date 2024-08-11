@@ -28,6 +28,7 @@ function App() {
         setScheduleMatrix([]);
         setTurnaroundTimes([]);
         setAverageTurnaround(null); // Resetar o turnaround médio
+        // Aqui, você pode forçar uma nova renderização se necessário
     };
 
     const generateSchedule = () => {
